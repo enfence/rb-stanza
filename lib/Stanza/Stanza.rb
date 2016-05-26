@@ -227,8 +227,14 @@ module Stanza
             return s
         end
     
-        # our attributes
-        attr_accessor :name, :attrs, :comment, :commentChar
+        # name of the stanza
+        attr_accessor :name
+        # attributes and their values
+        attr_accessor :attrs
+        # comment lines for the stanza
+        attr_accessor :comment
+        # character which denotes comments
+        attr_accessor :commentChar
 
         alias keys attributes
         alias setAttribute addAttribute
