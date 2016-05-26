@@ -6,6 +6,6 @@ spec = Gem::Specification.new do |spec|
     spec.email = 'andrey.klyachkin@enfence.com'
     spec.homepage = 'https://github.com/enfence/rb-stanza'
     spec.files = Dir['lib/**/*.rb']
-    spec.version = '0.0.1'
+    spec.version = '0.0.2'
     spec.license = 'Apache-2.0'
 end
