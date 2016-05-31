@@ -5,11 +5,11 @@ require 'Stanza'
 f1 = Stanza::StanzaFile.new('filesystems')
 puts f1
 
-a = f1.getStanzaAttr('/nim/spot', 'dev')
+a = f1.get_stanza_attr('/nim/spot', 'dev')
 puts a
 
-f1.setStanzaAttr('/nim/spot', 'dev', '/dev/lvspot')
-b = f1.getStanzaAttr('/nim/spot', 'dev')
+f1.set_stanza_attr('/nim/spot', 'dev', '/dev/lvspot')
+b = f1.get_stanza_attr('/nim/spot', 'dev')
 puts b
 
-f1.writeToFile('filesystems.new')
+f1.write_to_file('filesystems.new')

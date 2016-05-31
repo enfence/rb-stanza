@@ -45,7 +45,7 @@ module Stanza
       @comment = ''
       @stanzas = []
       if ::File.exist?(file)
-        readStanzaFile(file)
+        read_stanza_file(file)
       else
         ::File.new(file, File::CREAT | File::WRONLY, 0644)
       end

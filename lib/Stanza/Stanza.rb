@@ -238,9 +238,9 @@ module Stanza
     attr_accessor :comment_char
 
     alias keys attributes
-    alias setAttribute addAttribute
-    alias attribute getAttribute
-    alias key getAttribute
+    alias set_attribute add_attribute
+    alias attribute get_attribute
+    alias key get_attribute
     alias each_attr each_attribute
     alias each_key each_attribute
     alias each_pair each
