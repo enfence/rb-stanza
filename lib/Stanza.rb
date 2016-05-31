@@ -23,10 +23,9 @@
 # * Stanza
 # * StanzaFile
 module Stanza
-    # :nodoc:
-    VERSION = "0.0.2"
+  # :nodoc:
+  VERSION = '0.0.2'.freeze
 
-    autoload :Stanza, 'Stanza/Stanza'
-    autoload :StanzaFile, 'Stanza/StanzaFile'
-
+  autoload :Stanza, 'Stanza/Stanza'
+  autoload :StanzaFile, 'Stanza/StanzaFile'
 end
